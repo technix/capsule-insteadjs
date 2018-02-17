@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "ua.in.technix.capsule"
+        versionCode = "11" 
+        version     = "1.1.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Capsule</name>
+
+    <description>
+        "Capsule" - short interactive fiction game
+    </description>
+
+    <author href="http://technix.in.ua" email="sergei.mozhaisky@gmail.com">
+        Serhii Mozhaiskyi
+    </author>
+
+    <icon src="icon.png" />
+
+    <gap:platform name="android" />
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+</widget>

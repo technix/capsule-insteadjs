@@ -1,0 +1,26 @@
+@font-face{font-family:"insteadWin";src:url("./game/capsule/theme/JournalSans.otf") format("truetype");}
+@font-face{font-family:"insteadWin";src:url("./game/capsule/theme/JournalSans-Bold.otf") format("truetype");font-weight:bold;}
+@font-face{font-family:"insteadWin";src:url("./game/capsule/theme/JournalSans-Italic.otf") format("truetype");font-style:italic;}
+@font-face{font-family:"insteadWin";src:url("./game/capsule/theme/JournalSans-Bold-Italic.otf") format("truetype");font-weight:bold;font-style:italic;}
+@font-face{font-family:"insteadInv";src:url("./game/capsule/theme/JournalSans.otf") format("truetype");}
+@font-face{font-family:"insteadInv";src:url("./game/capsule/theme/JournalSans-Bold.otf") format("truetype");font-weight:bold;}
+@font-face{font-family:"insteadInv";src:url("./game/capsule/theme/JournalSans-Italic.otf") format("truetype");font-style:italic;}
+@font-face{font-family:"insteadInv";src:url("./game/capsule/theme/JournalSans-Bold-Italic.otf") format("truetype");font-weight:bold;font-style:italic;}
+
+#stead a {
+    position: relative;
+    display: inline-block;
+    padding: 0.2em;
+    margin: -0.2em;
+    z-index: 1; 
+}
+
+#win a.hover, #inventory a.hover {
+    color: #FFFFFF;
+    background-color: #902c00;
+}
+
+#DRAG {
+    background-color: #902c00;
+    color: #FFFFFF;
+}
